@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+         <meta charset="utf-8">
+         <meta name="author" content="Paulo Balduino">
+         <meta name="description" content="Website de um quizz sobre Quioto">
+         <meta name="keywords" content="HTML">
+         <title> Quizz de Quioto </title>
+         <style>
+            header {
+                text-align: center;
+                font-size: 30px;
+            }
+            body {
+                text-align: center; 
+                background-color: #f5deb3;
+            }
+            img {
+                border: 2px solid rgb(139, 62, 17);
+            }
+            fieldset {
+           max-width: 20%;
+           margin: 0 auto;
+            }
+       
+  li {
+    margin-bottom: 10px; /* add some spacing between list items */
+    list-style-position: outside; /* move the numbers inside the list item content */
+  }
+  .question {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+
+           
+
+
+         </style>
+    </head>
+
+    <body>
+        <header>
+            <h1>Qioto</h1>
+        </header>
+        <img src="images/Quiotoresized.jpg" alt="Quioto">
+        <nav></nav>
+        <main>
+            <section>
+                <h1></h1>
+                <p></p>
+                <p></p>
+            </section>
+            <h3>Quizz</h3>
+            <p>Nesta página será feito um quiz para testar o quanto o utilizador conhece sobre a cidade de Quioto</p>
+            <form>
+                <fieldset>
+                   Aqui segue-se um quiz sobre a cidade de Quioto
+                </fieldset>
+                <fieldset title = "perguntas">
+                    <ol>
+                        <li class="question">
+                        
+                            <p>Em que pais Quioto se localiza?</p>
+                            <input type="radio" >
+                            <label for="opcao1">China</label>
+                            <br>
+                            <input type="radio"  >
+                            <label for="opcao2">Coreia do Sul</label>
+                            <br>
+                            <input type="radio">
+                            <label for="opcao3">Japão</label>
+                        </li>
+                        <li class="question">
+                            <p>Qual o significado do nome "Quioto"?</p>
+                            <input type="radio" >
+                            <label for="opcao1">Terra do Sol Nascente</label>
+                            <br>
+                            <input type="radio"  >
+                            <label for="opcao2">Cidade capital</label>
+                            <br>
+                            <input type="radio">
+                            <label for="opcao3">A cidade que nunca dorme</label>
+                        </li>
+                        <li class="question">
+                            <p>Quantos templos e santuários existem em Quioto?</p>
+                            <label for="opcao1">Escolha um número:</label>
+                            <input type="text" id="12345" list="1234">
+                            <datalist id="1234">
+                            <option value="700">
+                            <option value="2200">
+                            <option value="420">
+                            <option value="1600">
+                            <option value="50">
+                            </datalist>
+                        </li>
+                        <li class="question">
+                            <p>Em que ano Qioto deixou de ser capital?</p>
+                            <input type="number" name="Ano" id="" min="500" max="2023" step="1" value="1800">
+                        </li>
+                        <li>
+                            <p>Em que sitio é localizado o museu samurai?</p>
+                            <select id="5a" multiple="">
+                                <option value="Teramachi Utanokoji">Teramachi Utanokoji</option>
+                                <option value="Osaka">Osaka</option>
+                                <option value="Onji jinja">Onji jinja</option>
+                                <option value="Amagasaki">Amagasaki</option>
+                            </select>
+                        </li>
+                        <li>
+                            <p>Escolha a cor que mais associa a Quioto assim como o País a que pertence</p>
+                            <input type="color" id="2a">
+                        </li>
+                        <li>
+                            <p>Use o seguinte slider para dizer o quanto gostou deste website</p>
+                            <input type="range" id="4b">
+                        </li>
+                    </ol>
+            </form>
+    
+            <section>
+                <h1></h1>
+                <p></p>
+                <p></p>
+            </section>
+        </main>
+        <footer>
+            <h4>Feito por: Paulo Balduino -  2023</h4>
+        </footer>
+    </body>
+    
